@@ -9,6 +9,8 @@ class InventoryPage:
 
     def is_at_page( self ):
         return self.URL_CURRENT in self.driver.current_url
+    
+    
 
 
 

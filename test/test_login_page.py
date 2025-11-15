@@ -1,4 +1,3 @@
-import pytest
 from page.login_page import LoginPage
 
 def test_login( driver ):
