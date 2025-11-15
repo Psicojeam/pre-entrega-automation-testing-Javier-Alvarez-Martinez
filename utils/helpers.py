@@ -1,6 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.chrome.options import Options
+#from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
 
@@ -28,6 +28,7 @@ def get_driver():
 
     #time.sleep(5)
     driver.implicitly_wait(5)
+    
     return driver
 
 
