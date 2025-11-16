@@ -6,8 +6,11 @@ from selenium.webdriver.chrome.service import Service
 # import time
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import os
+
 URL = 'https://www.saucedemo.com/'
+USERNAME = 'standard_user'
+PASSWORD = 'secret_sauce'
+
 
 def get_driver():
 
