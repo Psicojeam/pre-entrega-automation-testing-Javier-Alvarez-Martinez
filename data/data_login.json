@@ -1,19 +1,18 @@
 [
-    {
-        "username": "standard user",
-        "password": "secret sauce",
-        "login_example": true
-    },
-    {
-        "username": "locked_out_user",
-        "password": "secret sauce",
-        "login_example": false
-    },
-    {
-        "username": "problem_user",
-        "password": "secret sauce",
-        "login_example": true
-    }
+  {
+    "username": "standard_user",
+    "password": "secret_sauce",
+    "login_example": true
+  },
+  {
+    "username": "locked_out_user", 
+    "password": "secret_sauce",
+    "login_example": false
+  },
+  {
+    "username": "problem_user",
+    "password": "secret_sauce", 
+    "login_example": true
+  }
 ]
-
 

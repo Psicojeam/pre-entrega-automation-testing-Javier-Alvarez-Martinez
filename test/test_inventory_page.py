@@ -7,7 +7,7 @@ def test_inventory( driver ):
     inventory = InventoryPage(driver)
 
     login.open()
-    login.login()
+    login.login("standard_user", "secret_sauce")
 
     time.sleep(10)
 

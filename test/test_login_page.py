@@ -1,11 +1,11 @@
 import pytest
 from page.login_page import LoginPage
 from data.data_login import CASOS_LOGIN
-from utils.example_csv import get_login_csv, get_login_json
-#from utils.faker import get_login_faker
+from utils.example_csv import get_login_csv
+from utils.faker import get_login_faker
 
 
-@pytest.mark.parametrize("username,password,login_bool",get_login_json())
+@pytest.mark.parametrize("username,password,login_bool",CASOS_LOGIN)
 def test_login( driver, username , password , login_bool ):
     #crear objeto (instanciarlo)
     loginPage = LoginPage(driver) 
